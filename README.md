@@ -1,15 +1,19 @@
-#Old Car Price Prediction: Regression
+🚗 Old Car Price Prediction: Regression
 
-##Project Overview
+
+
+📌 Project Overview
+
 This project focuses on predicting used car prices using multiple machine learning regression algorithms. A complete end-to-end workflow was implemented including data cleaning, feature engineering, preprocessing, model training, hyperparameter tuning, evaluation, and model comparison.
 
-The goal was to identify the best-performing algorithm for car price prediction based on real-world vehicle features.
+The main goal was to identify the best-performing algorithm for car price prediction using real-world vehicle features.
 
 ⸻
 
-##Dataset Description
+📂 Dataset Description
 
-Input Features (X)
+🔹 Input Features (X):
+
 	•	Car Brand / Make
 	•	Car Model
 	•	Fuel Type
@@ -20,14 +24,17 @@ Input Features (X)
 	•	Kilometers Driven
 	•	Ownership Details
 	•	Car Age
-	•	Other encoded categorical features
+	•	Other Encoded Categorical Features
 
-Target Variable (y)
-	•	Car Price
+
+🎯 Target Variable (y):
+
+	•	💰 Car Price
 
 ⸻
 
-##Project Workflow
+⚙️ Project Workflow:
+
 	1.	Import Libraries
 	2.	Load & Inspect Dataset
 	3.	Clean Text-Based Numeric Columns
@@ -43,30 +50,52 @@ Target Variable (y)
 
 ⸻
 
-##Model Evaluation Comparison
+📈 Model Evaluation Comparison
 
-Model					MAE			RMSE		R² Score
-Linear Regression		562114.67	1984284.00	-4.3129
-Ridge Regression		199476.20	403082.66	0.7808
-Lasso Regression		187216.05	496289.80	0.6677
-ElasticNet Regression	174209.16	355345.20	0.8296
+🔹 Linear Regression
 
+	•	MAE : 562114.67
+	•	RMSE: 1984284.00
+	•	R² Score: -4.3129
+
+
+🔹 Ridge Regression
+
+	•	MAE : 199476.20
+	•	RMSE: 403082.66
+	•	R² Score: 0.7808
+
+
+🔹 Lasso Regression
+
+	•	MAE : 187216.05
+	•	RMSE: 496289.80
+	•	R² Score: 0.6677
+
+
+🔹 ElasticNet Regression
+
+	•	MAE : 174209.16
+	•	RMSE: 355345.20
+	•	R² Score: 0.8296
 
 ⸻
 
-##Best Performing Model
-ElasticNet Regression achieved the best performance among the compared linear models.
+🏆 Best Performing Model:
+
+✅ ElasticNet Regression achieved the best performance among the compared linear models.
 
 ⸻
 
-##Key Learnings
-	•	Plain Linear Regression fails on complex real-world datasets with high variance
+📚 Key Learnings:
+
+	•	Plain Linear Regression may fail on complex real-world datasets with high variance
 	•	Regularization (Ridge, Lasso, ElasticNet) significantly improves generalization
-	•	Feature engineering (Car Age) and proper preprocessing have a strong impact on model accuracy
+	•	Feature engineering (Car Age) and proper preprocessing strongly improve model accuracy
 	•	Model comparison is essential — no single algorithm wins without evaluation
 
 ⸻
 
-Conclusion
+🎯 Conclusion
 
-This project demonstrates the importance of preprocessing, feature engineering, and comparing multiple algorithms to build a strong regression model for real-world price prediction.
+This project demonstrates the importance of preprocessing, feature engineering, and comparing multiple algorithms to build a strong regression model for real-world price predion.
