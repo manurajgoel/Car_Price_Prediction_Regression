@@ -1,14 +1,13 @@
-Old Car Price Prediction: Regression
+#Old Car Price Prediction: Regression
 
-Project Overview
-
+##Project Overview
 This project focuses on predicting used car prices using multiple machine learning regression algorithms. A complete end-to-end workflow was implemented including data cleaning, feature engineering, preprocessing, model training, hyperparameter tuning, evaluation, and model comparison.
 
 The goal was to identify the best-performing algorithm for car price prediction based on real-world vehicle features.
 
 ⸻
 
-Dataset Description
+##Dataset Description
 
 Input Features (X)
 	•	Car Brand / Make
@@ -28,7 +27,7 @@ Target Variable (y)
 
 ⸻
 
-Project Workflow
+##Project Workflow
 	1.	Import Libraries
 	2.	Load & Inspect Dataset
 	3.	Clean Text-Based Numeric Columns
@@ -44,29 +43,27 @@ Project Workflow
 
 ⸻
 
-Model Evaluation Comparison
+##Model Evaluation Comparison
 
-Model	MAE	RMSE	R² Score
-Linear Regression	562114.67	1984284.00	-4.3129
-Ridge Regression	199476.20	403082.66	0.7808
-Lasso Regression	187216.05	496289.80	0.6677
+Model					MAE			RMSE		R² Score
+Linear Regression		562114.67	1984284.00	-4.3129
+Ridge Regression		199476.20	403082.66	0.7808
+Lasso Regression		187216.05	496289.80	0.6677
 ElasticNet Regression	174209.16	355345.20	0.8296
 
 
 ⸻
 
-Best Performing Model
-
+##Best Performing Model
 ElasticNet Regression achieved the best performance among the compared linear models.
 
 ⸻
 
-Key Learnings
-
-Plain Linear Regression fails on complex real-world datasets with high variance
-Regularization (Ridge, Lasso, ElasticNet) significantly improves generalization
-Feature engineering (e.g., Car Age) and proper preprocessing have a strong impact on model accuracy
-Model comparison is essential — no single algorithm wins without evaluation
+##Key Learnings
+	•	Plain Linear Regression fails on complex real-world datasets with high variance
+	•	Regularization (Ridge, Lasso, ElasticNet) significantly improves generalization
+	•	Feature engineering (Car Age) and proper preprocessing have a strong impact on model accuracy
+	•	Model comparison is essential — no single algorithm wins without evaluation
 
 ⸻
 
